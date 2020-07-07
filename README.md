@@ -22,7 +22,7 @@ Fabio:
 --------------------------
 Guilherme:
 
-- **Streaming Share: A plataform where you can share group subscriptions of Streaming platforms so you would pay for a Family Spotify Plan and share it with someone else, in exchange you would get a shareable Netflix acess. 
+- **Streaming Share**: A plataform where you can share group subscriptions of Streaming platforms so you would pay for a Family Spotify Plan and share it with someone else, in exchange you would get a shareable Netflix acess. 
 
 
 
