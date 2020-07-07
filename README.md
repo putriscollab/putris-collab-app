@@ -19,6 +19,11 @@ Fabio:
 - **Family organiser** : Family calender, shopping lists, to do lists etc..
 - **Team Calender** : Organise teams, schedule work, manage availability, share events.
 
+--------------------------
+Guilherme:
+
+- **Streaming Share: A plataform where you can share group subscriptions of Streaming platforms so you would pay for a Family Spotify Plan and share it with someone else, in exchange you would get a shareable Netflix acess. 
+
 
 
 ## About The Application
