@@ -4,7 +4,7 @@
 ### Team Members
 - Fabio Gonçalves
 - Guilherme Santos
-- JR Maschietto
+- Luis Maschietto JR
 
 ### App Ideas
 JR:
