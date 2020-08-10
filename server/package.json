@@ -1,0 +1,11 @@
+{
+  "name": "putriscollab-api",
+  "version": "1.0.0",
+  "description": "putriscollab api",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC"
+}
