@@ -4,7 +4,9 @@
   "description": "putriscollab api",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodemon src/index"
+    "test": "nodemon src/index",
+    "start": "node src/index"
+
   },
   "author": "",
   "license": "ISC",
