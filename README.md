@@ -1,5 +1,5 @@
 # Collaborative Application
-
+--------------------------
 
 ### Team Members
 - Fabio Gonçalves
