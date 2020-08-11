@@ -27,3 +27,7 @@ Guilherme:
 
 ## About The Application
 --------------------------
+
+## App Prototype
+
+<img src= "https://i.imgur.com/I0ptx9Y.png">
