@@ -1,5 +1,6 @@
 // index, show, store, update, destroy
 const Content = require('../models/Content')
+const User = require('../models/User')
 
 module.exports = {
   

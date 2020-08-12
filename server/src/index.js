@@ -24,7 +24,7 @@ mongoose.connect(process.env.MONGODB_CONNECTION_STRING, {
 /**
  * Alternative for body-parser
  */
-// app.user ( express.json() )
+app.use ( express.json() )
 
 
 app.use(routes)

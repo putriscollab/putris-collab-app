@@ -7,6 +7,7 @@ const mongoose = require('mongoose')
 // title	String	got from first video
 // tags	Array<String>	tags that the video is related
 // totalRate	number	Average rate, updated with a new rating
+// qntRate	number	Number of rates
 // dateCreated	String	created date
 
 const contentSchema = new mongoose.Schema({
@@ -52,6 +53,15 @@ const contentSchema = new mongoose.Schema({
     
     type : Number,
     ref  : 'TotalRate',
+    default: 0,
+    
+  },
+
+  qntRate     : {
+    
+    type : Number,
+    ref  : 'TotalRate',
+    default: 0,
     
   },
   
