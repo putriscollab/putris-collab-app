@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Fabio Goncalves, Guilherme Andre dos Santos, Luis Fernando Maschietto Jr" />
+    <meta name="description" content="Putris Collab | Tutorials Collaboration & Reviews"/>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Home | Putris Collab</title>
 </head>
-<body>
-    <header>
-        <nav class="nav-container">
-            <ul class="menu-container">
-                <li><a href="./">Home</a></li>
-                <li><a href="./category.html">Category</a></li>
-                <li><a href="./favorites.html">Favorites</a></li>
-            </ul>
-            <h2>Browse</h2>
-            <div class="profile-image-container">
-                <img class="profile-image"src="https://via.placeholder.com/50" alt="profile picture">
-            </div>
-        </nav>
+<body>  
+        <header>
+            <nav role="navigation" class="nav-bar">
+                <div id="menuToggle" class="flex-item">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul id="menu">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./category.html">Category</a></li>
+                    <li><a href="./favorites.html">Favorites</a></li>
+                  </ul>
+                </div>
+                <h2 class="flex-item browse">Browse</h2>                
+                    <img class="profile-image flex-item"src="https://via.placeholder.com/50" alt="profile picture">                
+              </div>
+            </nav>       
     </header>
-    <h2>Hello, Username</h2>
+    <main>
+    <h2>Hello, <strong>Username</strong></h2>
     <section class="homepage-favorites-section">
         <h3>Favorites</h3>
         <div class="homepage-favorites-container">
-            <img src="https://via.placeholder.com/300x200" alt="">
+            <img class="favorites-image" src="https://via.placeholder.com/300x200" alt="">
         </div>
     </section>
      <section class="recent-section">
@@ -36,8 +46,9 @@
     </section>
     <section class="search-section">
         <div class="search-container">
-            <input type="text" placeholder="Search.." name="search">
+            <input class="search-bar" type="text" placeholder="Search.." name="search">
         </div>
     </section>
+</main>
 </body>
 </html>
