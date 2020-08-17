@@ -1,0 +1,81 @@
+html {
+	box-sizing: border-box;
+	line-height: 1.25;
+	font-family: sans-serif;
+	font-size: 1.0em;
+	background-color: #fff;
+	color: #222;
+	padding: 0;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+	font-family: inherit;
+	font-size: inherit; 
+}
+body {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	width: auto;
+	object-fit: cover;
+	padding: 0;
+	display: block;
+	}
+
+ul, ol {
+	list-style: none;
+	padding-left: 0;
+}
+ul.list {
+	list-style: disc;
+	padding-left: 2em;
+}
+ol.list {
+	list-style: decimal;
+	padding-left: 2em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.125em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.8em; }
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+	margin: 0rem 0;
+}
+input, textarea, button {
+	border-image: none;
+	border-style: solid;
+	border-width: thin;
+	border-color: #aaa;
+	vertical-align: middle;
+}
+[type="checkbox"], [type="radio"] {
+	vertical-align: middle;
+}
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+	opacity: 1;
+	color:#333;
+	padding-right: 0.25em;
+	
+}
+
+[type="button"] {
+  outline: none;
+}
