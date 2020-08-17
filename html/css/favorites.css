@@ -1,0 +1,42 @@
+h3 {
+  margin-left: 1em;
+}
+
+.favorites-container {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.8em;
+}
+
+.favorites-image-container {
+  margin: 2.5%;
+}
+
+.playlists-container {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 1em;
+}
+
+.favorites-image-container {
+  margin-bottom: 1.5em;
+}
+
+.add-playlist-container {
+  position: relative;
+  float: right;
+  margin-right: 1em;
+}
+
+.add-button {
+  font-size: large;
+  font-weight: 700;
+  position: relative;
+  float: right;
+  border-radius: 1em;
+  width: 2em;
+  height: 2em;
+  outline: none;
+}

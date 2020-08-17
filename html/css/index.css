@@ -17,6 +17,7 @@ body {
   border-radius: 2em;
   color: var(--colour-1);
   min-height: 800px;
+  max-width: 411px;
 }
 
 main {
