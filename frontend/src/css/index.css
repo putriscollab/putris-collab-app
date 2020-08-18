@@ -12,7 +12,7 @@
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0.25em;
+  margin-top: 0.25rem;
   background-color: var(--colour-on-accent-1);
   border-radius: 2em;
   color: var(--colour-1);
@@ -21,13 +21,13 @@
 }
 
 main {
-  margin-left: 1em;
+  margin-left: 1rem;
 }
 
 li a {
   color: var(--colour-1);
-  margin-left: 0.5em; 
-  margin-right: 0.5em; 
+  margin-left: 0.5rem; 
+  margin-right: 0.5rem; 
 }
 
 span {
@@ -36,28 +36,29 @@ span {
 
 h2 {
   
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 h3 {
   font-family: var(--font-title);
-  margin-bottom: 0.25em;
+  margin-bottom: 0.25rem;
 }
 
 .nav-bar {
+  width: 95%;
   display: flex;
   align-items: center;
 
 }
 
 .flex-item{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .browse {
-  margin-top: 1em;
-  margin-left: 2.3em
+  margin-top: 1rem;
+  margin-left: 2.5rem;
 }
 
 .menu-container {
@@ -67,22 +68,23 @@ h3 {
 }
 
 .recent-container {
+  max-width: 100%;
   display: flex;
   flex-direction: row;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 .favorites-image {
   width: 96%;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
-.recent-image-container {
-  margin: 2%;
+.recent-image-container {  
+  margin: 1%;
 }
 
 .search-bar {
-  width: 25em;
+  width: 19rem;
   height: 2em;
   border-radius: 1em;
   outline: none;

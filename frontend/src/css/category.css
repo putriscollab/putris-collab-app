@@ -1,0 +1,14 @@
+
+main {
+  margin-left: 0.5em;
+}
+
+.category-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.category-image-container {
+  margin: 1%;
+  margin-bottom: 2em;
+}
