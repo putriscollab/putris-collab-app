@@ -31,4 +31,3 @@ Guilherme:
 ## App Prototype
 
 <img src= "https://i.imgur.com/I0ptx9Y.png">
-
