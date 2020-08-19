@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/index.css';
+import './css/favorites.css';
 import './css/fonts.css';
 
 

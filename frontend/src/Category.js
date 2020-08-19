@@ -1,11 +1,11 @@
 import React from 'react';
 import './css/index.css';
 import './css/fonts.css';
+import { Link } from "react-router-dom";
 
-
-function Category() {
-  return (
-    <div className="Category">
+function Content() {
+    return (
+<div className="Category">
     <header>
         <nav role="navigation" className="nav-bar">
             <div id="menuToggle" className="flex-item">
@@ -46,8 +46,9 @@ function Category() {
     </section>
 </main>
     </div>
-  );
-}
+    )}
+
+
 
 
 

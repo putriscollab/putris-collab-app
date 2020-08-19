@@ -3,7 +3,7 @@ import './css/index.css';
 import './css/fonts.css';
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
     <header>
@@ -46,9 +46,7 @@ function App() {
     </section>
 </main>
     </div>
-  );
+  )
 }
-
-
 
 export default App;
