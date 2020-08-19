@@ -1,0 +1,53 @@
+h3 {
+  margin-left: 1em;
+}
+
+img {
+  max-width: none;
+  
+}
+
+.favorites-container {
+  margin-top: 1em;
+  display: grid;
+  grid-auto-flow: column;
+  overflow: auto;
+  grid-gap: 1em;
+  margin-left: 0.8em;
+}
+
+.favorites-image-container {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.5em;
+  margin-right: 1em;
+}
+
+.playlists-container {
+  margin-top: 1em;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-flow: column;
+  overflow: auto;
+  grid-gap: 1em;
+  margin-left: 0.8em;
+}
+
+
+
+.add-playlist-container {
+  position: relative;
+  float: right;
+  margin-right: 1em;
+}
+
+.add-button {
+  font-size: large;
+  font-weight: 700;
+  position: relative;
+  float: right;
+  border-radius: 1em;
+  width: 2em;
+  height: 2em;
+  outline: none;
+}
